@@ -10,6 +10,7 @@
 * Beautify
 * Babel ES6/ES7
 * Babel JavaScript
+* Bracket Pair Colorizer
 * Better PHPUnit
 * Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets
 * Catalan - Code Spell Checker
