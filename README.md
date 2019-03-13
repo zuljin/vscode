@@ -1,4 +1,4 @@
-# vscode my plugin list
+# plugin list
 
 
 * Angular v7 Snippets
