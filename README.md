@@ -72,4 +72,5 @@
 * Vscode Google Translate
 * vscode-icons
 * vscode-pdf
+* vscode-spotify
 
