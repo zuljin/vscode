@@ -1,6 +1,7 @@
 # plugin list
 
 
+* advanced-new-file
 * Angular v7 Snippets
 * Amphirion theme(dark)
 * Auto Close Tag
@@ -48,7 +49,7 @@
 * PHP IntelliSense
 * PHP IntelliSense Crane
 * PHP Namespace Resolver
-* PHPUnit
+* -PHPUnit- (Better PHPUnit)
 * Prettier - Code formatter
 * React Native Snippet
 * React Native Snippet
