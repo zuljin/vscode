@@ -1,0 +1,13 @@
+{
+    "explorer.confirmDelete": false,
+    "better-phpunit.docker.enable": true,
+    "better-phpunit.docker.command": "docker exec php56",
+    "better-phpunit.docker.paths": {
+        "/datos/web/bkmdocapi": "/datos/web/bkmdocapi"
+    },
+    "workbench.colorTheme": "Winter is Coming (Dark)",
+    "workbench.iconTheme": "material-icon-theme",
+    //"php.executablePath": "/usr/bin/docker exec -ti php56 /usr/bin/php",
+    "php.executablePath": "/datos/web/php7wrapper.sh",
+    "php.suggest.basic": false
+}
