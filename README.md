@@ -13,11 +13,13 @@
 * Babel JavaScript
 * Bracket Pair Colorizer
 * Better PHPUnit
+* Bookmarks
 * Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets
 * Catalan - Code Spell Checker
 * change-case
 * Code Runner
 * Code Spell Checker
+* Color Highlight
 * Darcula Theme
 * Docker Explorer
 * ESLint
@@ -30,10 +32,8 @@
 * IntelliSense for CSS class names in HTML
 * JavaScript (ES6) code snippets
 * Laravel Blade Spacer
-* Markdown All in One
+* Live Server
 * Markdown PDF
-* Markdown Preview Github Styling
-* markdownlint
 * Markdown Preview Enhanced
 * Material Icon Theme
 * Material Theme
@@ -42,6 +42,7 @@
 * Node.js Modules Intellisense
 * npm
 * npm Intellisense
+* Paste JSON to Code
 * Path Intellisense
 * PHP Debug
 * PHP DocBlocker
@@ -66,6 +67,7 @@
 * Sublime text keymap and Settings...
 * Terminal
 * TODO Highlight
+* TODO Tree
 * TypeScript Import
 * TypeScript Importer
 * Useful React Snippets
