@@ -22,6 +22,7 @@
 * Color Highlight
 * Darcula Theme
 * Docker Explorer
+* Dotenv
 * ESLint
 * Firebase
 * Flow Language Support
