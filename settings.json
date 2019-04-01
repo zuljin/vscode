@@ -1,13 +1,62 @@
 {
+    "window.zoomLevel": -0.5,
+    "editor.fontSize": 18,
+    "terminal.integrated.fontSize": 18,
     "explorer.confirmDelete": false,
     "better-phpunit.docker.enable": true,
-    "better-phpunit.docker.command": "docker exec php56",
+    "better-phpunit.docker.command": "docker exec -ti php56",
     "better-phpunit.docker.paths": {
         "/datos/web/bkmdocapi": "/datos/web/bkmdocapi"
     },
+    "better-phpunit.commandSuffix": "-c /datos/web/bkmdocapi/phpunit.xml",
     "workbench.colorTheme": "Winter is Coming (Dark)",
     "workbench.iconTheme": "material-icon-theme",
     //"php.executablePath": "/usr/bin/docker exec -ti php56 /usr/bin/php",
     "php.executablePath": "/datos/web/php7wrapper.sh",
-    "php.suggest.basic": false
+    "php.suggest.basic": false,
+    "cSpell.language": "en,es",
+    "cSpell.userWords": [
+        "CETELEM",
+        "cotitular"
+    ],
+    "todohighlight.keywords": [
+        "DEBUG:",
+        "REVIEW:",
+        {
+            "text": "NOTE:",
+            "color": "#fff",
+            "backgroundColor": "pink",
+            "overviewRulerColor": "pink"
+        },
+        {
+            "text": "HACK:",
+            "color": "#000",
+            "isWholeLine": false,
+        },
+    ],
+    "todo-tree.excludeGlobs": [
+        "**/vendor/**",
+        "**/node/node_modules/**",
+        "**/node_modules/**",
+        "**/dist/**",
+        "**/resources/**",
+        "**/public/**",
+        "**/core/**",
+        "**/common-libs/**",
+        "**/openlead/**",
+        "**/appuser-frontend/**",
+        "**/bkmdoc-frontend/**",
+    ],
+    "todo-tree.customHighlight": {
+        "NOTE": {
+            "icon": "check",
+            "type": "line"
+        },
+        "FIXME": {
+            "foreground": "black",
+            "iconColour": "yellow"
+        }
+    },
+    //"artisan.docker.enabled": true,
+    //"artisan.docker.command": "docker exec -to workdir php56"
 }
