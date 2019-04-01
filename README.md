@@ -24,6 +24,7 @@
 * Docker Explorer
 * Dotenv
 * ESLint
+* Favorites
 * Firebase
 * Flow Language Support
 * Git Blame
@@ -53,12 +54,6 @@
 * PHP Namespace Resolver
 * -PHPUnit- (Better PHPUnit)
 * Prettier - Code formatter
-* React Native Snippet
-* React Native Snippet
-* React Native Tools
-* React Redux ES6 Snippets
-* React/Redux/react-router Snippets
-* Reactjs code snippets
 * Settings Sync
 * Simple React Snippets
 * Spanish - Code Spell Checker
