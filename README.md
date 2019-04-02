@@ -72,4 +72,5 @@
 * vscode-icons
 * vscode-pdf
 * vscode-spotify
+* WakaTime
 
