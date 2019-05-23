@@ -1,8 +1,18 @@
 {
     "window.zoomLevel": -0.5,
-    "editor.fontSize": 18,
-    "terminal.integrated.fontSize": 18,
+    "editor.fontSize": 17,
+    "terminal.integrated.fontSize": 17,
     "explorer.confirmDelete": false,
+    {
+        "favorites.sortDirection": "DESC",
+        "files.exclude": {
+            "appuser-frontend": true,
+            "bkmdoc-frontend": true,
+            "common-libs": true,
+            "corelib": true,
+            "laradock": true,
+        }
+    },
     "better-phpunit.docker.enable": true,
     "better-phpunit.docker.command": "docker exec -ti php56",
     "better-phpunit.docker.paths": {
@@ -17,7 +27,17 @@
     "cSpell.language": "en,es",
     "cSpell.userWords": [
         "CETELEM",
-        "cotitular"
+        "Cancelar",
+        "Credi",
+        "Facturable",
+        "carácteres",
+        "cotitular",
+        "logearse",
+        "razón",
+        "redirección",
+        "reprogramar",
+        "sincronización",
+        "tipología"
     ],
     "todohighlight.keywords": [
         "DEBUG:",
