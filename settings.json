@@ -3,15 +3,18 @@
     "editor.fontSize": 17,
     "terminal.integrated.fontSize": 17,
     "explorer.confirmDelete": false,
-    {
-        "favorites.sortDirection": "DESC",
-        "files.exclude": {
-            "appuser-frontend": true,
-            "bkmdoc-frontend": true,
-            "common-libs": true,
-            "corelib": true,
-            "laradock": true,
-        }
+    "favorites.sortDirection": "DESC",
+    "files.exclude": {
+        "appuser-frontend": true,
+        "bkmdoc-frontend": true,
+        "common-libs": true,
+        "corelib": true,
+        "laradock": true,
+        "openlead": true,
+        "laravel_tdd_ticketbeast": true,
+        "common-components": true,
+        "crm-frontend": true,
+        "crm-frontend/node_modules": true,
     },
     "better-phpunit.docker.enable": true,
     "better-phpunit.docker.command": "docker exec -ti php56",
@@ -26,18 +29,28 @@
     "php.suggest.basic": false,
     "cSpell.language": "en,es",
     "cSpell.userWords": [
+        "Autentificación",
         "CETELEM",
         "Cancelar",
         "Credi",
+        "Desconexión",
+        "Dispatchable",
         "Facturable",
+        "Higgs",
+        "Reinténtalo",
+        "Tymon",
         "carácteres",
+        "contactación",
         "cotitular",
+        "favourite",
+        "identifícate",
         "logearse",
         "razón",
         "redirección",
         "reprogramar",
         "sincronización",
-        "tipología"
+        "tipología",
+        "unserialize"
     ],
     "todohighlight.keywords": [
         "DEBUG:",
@@ -54,7 +67,7 @@
             "isWholeLine": false,
         },
     ],
-    "todo-tree.excludeGlobs": [
+    "todo-tree.filtering.excludeGlobs": [
         "**/vendor/**",
         "**/node/node_modules/**",
         "**/node_modules/**",
@@ -66,7 +79,14 @@
         "**/openlead/**",
         "**/appuser-frontend/**",
         "**/bkmdoc-frontend/**",
+        "**/crm-frontend/**",
+        "**/bkmdocapi/**",
+        "**/laradock/**",
     ],
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#ff0000",
+        "terminalCursor.foreground": "#ff0000"
+    },
     "todo-tree.customHighlight": {
         "NOTE": {
             "icon": "check",
@@ -77,6 +97,26 @@
             "iconColour": "yellow"
         }
     },
+    "yaml.schemas": {
+        "file:///home/juan/.vscode/extensions/docsmsft.docs-yaml-0.2.3/schemas/toc.schema.json": "/toc\\.yml/i"
+    },
+    "editor.cursorBlinking": "expand",
+    "editor.cursorWidth": 4,
     //"artisan.docker.enabled": true,
-    //"artisan.docker.command": "docker exec -to workdir php56"
+    //"artisan.docker.command": "docker exec -to workdir php56",
+    "[yaml]":  {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2,
+		"editor.autoIndent": false
+    },
+    "todo-tree.highlights.customHighlight": {
+        "NOTE": {
+            "icon": "check",
+            "type": "line"
+        },
+        "FIXME": {
+            "foreground": "black",
+            "iconColour": "yellow"
+        }
+    },
 }
