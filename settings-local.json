@@ -1,0 +1,26 @@
+{
+    "favorites.sortDirection": "DESC",
+    "files.exclude": {
+    },
+    "better-phpunit.commandSuffix": "-c /datos/web/crm-clients/phpunit.xml --testdox --coverage-text",
+    "better-phpunit.docker.enable": true,
+    "better-phpunit.docker.command": "docker exec -ti php73",
+    "better-phpunit.docker.paths": {
+        "/datos/web/crm-business": "/datos/web/crm-business",
+        "/datos/web/crm-clients": "/datos/web/crm-clients",
+        "/datos/web/crm-externals": "/datos/web/crm-externals",
+        "/datos/web/crm-logs": "/datos/web/crm-logs",
+    },
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "[typescript]": {
+        "editor.tabSize": 2
+    },
+    "[yaml]": {
+        "editor.tabSize": 2
+    },
+}
+
