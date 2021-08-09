@@ -1,8 +1,8 @@
 # plugin list
 
 
-* advanced-new-file
-* Angular v7 Snippets
+* advanced-new-file: not bad
+* Angular v7 Snippets: NO
 * Amphirion theme(dark)
 * Auto Close Tag
 * Auto Complete Tag
@@ -12,7 +12,7 @@
 * Babel ES6/ES7
 * Babel JavaScript
 * Bracket Pair Colorizer
-* Better PHPUnit: OK (alt + T run | alt + G run previous)
+* Better PHPUnit: OK (alt + T run | alt + G run previous) (https://marketplace.visualstudio.com/items?itemName=calebporzio.better-phpunit)
 * Bookmarks
 * Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets
 * Catalan - Code Spell Checker
@@ -60,7 +60,7 @@
 * Spanish Language Pack for Visual Studio Code
 * SVG Viewer
 * Sublime Material Theme
-* Sublime Text Keymap and Settings Importer: OK
+* Sublime Text Keymap and Settings Importer: OK (https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
 * Terminal
 * TODO Highlight
 * TODO Tree
