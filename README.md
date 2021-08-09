@@ -1,3 +1,5 @@
+https://code.visualstudio.com/docs/setup/linux#_visual-studio-code-is-unable-to-watch-for-file-changes-in-this-large-workspace-error-enospc
+
 # plugin list
 
 
@@ -37,7 +39,7 @@
 * Live Server
 * Markdown PDF
 * Markdown Preview Enhanced
-* Material Icon Theme
+* Material Icon Theme: OK
 * Material Theme
 * Multiline Tricks
 * New Moon Dracula VSCode
