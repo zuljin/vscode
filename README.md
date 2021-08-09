@@ -12,7 +12,7 @@
 * Babel ES6/ES7
 * Babel JavaScript
 * Bracket Pair Colorizer
-* Better PHPUnit
+* Better PHPUnit: OK (alt + T run | alt + G run previous)
 * Bookmarks
 * Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets
 * Catalan - Code Spell Checker
@@ -24,7 +24,7 @@
 * Docker Explorer
 * Dotenv
 * ESLint
-* Favorites
+* Favorites: OK
 * Firebase
 * Flow Language Support
 * Git Blame
@@ -60,7 +60,7 @@
 * Spanish Language Pack for Visual Studio Code
 * SVG Viewer
 * Sublime Material Theme
-* Sublime text keymap and Settings...
+* Sublime Text Keymap and Settings Importer: OK
 * Terminal
 * TODO Highlight
 * TODO Tree
