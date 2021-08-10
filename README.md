@@ -4,25 +4,21 @@ https://code.visualstudio.com/docs/setup/linux#_visual-studio-code-is-unable-to-
 
 I came up with a solution on Linux for multiple laravel sail projects.
 
-Create a file named 'php' on /usr/local/bin
-
-sudo touch /usr/local/bin/php
-Make it executable:
-
-sudo chmod +x /usr/local/bin/php
+Create a file named 'php' on /usr/local/bin: sudo touch /usr/local/bin/php
+Make it executable: sudo chmod +x /usr/local/bin/php
 Edit the file (with sudo) and paste this code:
-
+```
 path=$(printf '%s\n' "${PWD##*/}")
 command="docker exec ${path}_laravel.test_1 php "$@""
 echo "Running php on docker ${path}_laravel.test_1"
 $command
-
----
-`
+```
+--- 
+```
 command="docker exec php73nginx  php "$@""
 echo "Running php on docker php73nginx"
 $command
-`
+```
 
 # plugin list
 
