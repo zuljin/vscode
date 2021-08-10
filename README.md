@@ -32,6 +32,11 @@ $command
 
 ### plugin list
 
+## NEEDED
+
+## NOT BAD NOT NEEDED
+
+## NOT NEEDED
 
 * advanced-new-file: not bad
 * Angular v7 Snippets: NO
