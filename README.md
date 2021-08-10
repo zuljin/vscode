@@ -1,6 +1,8 @@
 ### Folder with a lot of projects
 https://code.visualstudio.com/docs/setup/linux#_visual-studio-code-is-unable-to-watch-for-file-changes-in-this-large-workspace-error-enospc
 
+### links
+https://blog.theodo.com/2019/07/vscode-php-development/
 
 #### Solution on Linux for multiple laravel sail projects without install PHP in OS (docker)
 
