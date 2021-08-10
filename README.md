@@ -1,11 +1,19 @@
+### Folder with a lot of projects
 https://code.visualstudio.com/docs/setup/linux#_visual-studio-code-is-unable-to-watch-for-file-changes-in-this-large-workspace-error-enospc
 
 
+#### Solution on Linux for multiple laravel sail projects without install PHP in OS (docker)
 
-I came up with a solution on Linux for multiple laravel sail projects.
+Create a file named 'php' on /usr/local/bin: 
+```
+sudo touch /usr/local/bin/php
+```
 
-Create a file named 'php' on /usr/local/bin: sudo touch /usr/local/bin/php
-Make it executable: sudo chmod +x /usr/local/bin/php
+Make it executable: 
+```
+sudo chmod +x /usr/local/bin/php
+```
+
 Edit the file (with sudo) and paste this code:
 ```
 path=$(printf '%s\n' "${PWD##*/}")
@@ -20,7 +28,7 @@ echo "Running php on docker php73nginx"
 $command
 ```
 
-# plugin list
+### plugin list
 
 
 * advanced-new-file: not bad
@@ -95,4 +103,3 @@ $command
 * vscode-pdf
 * vscode-spotify
 * WakaTime
-
