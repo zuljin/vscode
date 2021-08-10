@@ -4,11 +4,12 @@
     },
     "better-phpunit.commandSuffix": "-c /datos/web/crm-clients/phpunit.xml --testdox --coverage-text",
     "better-phpunit.docker.enable": true,
-    "better-phpunit.docker.command": "docker exec -ti php73",
+    "better-phpunit.docker.command": "docker exec -ti php73nginx",
     "better-phpunit.docker.paths": {
         "/datos/web/crm-business": "/datos/web/crm-business",
         "/datos/web/crm-clients": "/datos/web/crm-clients",
         "/datos/web/crm-externals": "/datos/web/crm-externals",
+        "/datos/web/crm-communications": "/datos/web/crm-communications",
         "/datos/web/crm-logs": "/datos/web/crm-logs",
     },
     "editor.tabSize": 4,
@@ -23,4 +24,3 @@
         "editor.tabSize": 2
     },
 }
-
