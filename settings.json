@@ -9,6 +9,7 @@
         "bkmdoc-frontend": true,
         "common-libs": true,
         "corelib": true,
+        "csrf-header": true,
         "laradock": true,
         "openlead": true,
         "laravel_tdd_ticketbeast": true,
@@ -22,36 +23,33 @@
         "/datos/web/bkmdocapi": "/datos/web/bkmdocapi"
     },
     "better-phpunit.commandSuffix": "-c /datos/web/bkmdocapi/phpunit.xml",
-    "workbench.colorTheme": "Winter is Coming (Dark)",
-    "workbench.iconTheme": "material-icon-theme",
-    //"php.executablePath": "/usr/bin/docker exec -ti php56 /usr/bin/php",
-    "php.executablePath": "/datos/web/php7wrapper.sh",
+    // PHP
+    // Establece los valores de configuración que se reemplazarán para el lenguaje PHP
+    "[php]": {
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    },
+    // PHP: Validate: Executable path
+    // Ubicación del intérprete de PHP.
+    "php.validate.executablePath": "/usr/local/bin/php",
+    //
+    // PHP: Validate: Run
+    // Indica la validación se ejecuta al guardar o al escribir.
+    "php.validate.run": "onType",
+    //"php.validate.run": "onSave",
+    // Basic PHP code suggestions we want to disable
+    // The problem is that these suggestions are polluted by the default PHP suggestions.
     "php.suggest.basic": false,
-    "cSpell.language": "en,es",
-    "cSpell.userWords": [
-        "Autentificación",
-        "CETELEM",
-        "Cancelar",
-        "Credi",
-        "Desconexión",
-        "Dispatchable",
-        "Facturable",
-        "Higgs",
-        "Reinténtalo",
-        "Tymon",
-        "carácteres",
-        "contactación",
-        "cotitular",
-        "favourite",
-        "identifícate",
-        "logearse",
-        "razón",
-        "redirección",
-        "reprogramar",
-        "sincronización",
-        "tipología",
-        "unserialize"
-    ],
+    "files.associations": {
+        "*.module": "php",
+        "*.php": "php"
+    },
+    // Extensión PHP Intellisense
+    //
+    // PHP: Executable Path
+    // Ubicación del intérprete de PHP.
+    "php.executablePath": "/usr/local/bin/php",
+    "editor.quickSuggestions": { "comments": true },
     "todohighlight.keywords": [
         "DEBUG:",
         "REVIEW:",
@@ -107,7 +105,7 @@
     "[yaml]":  {
 		"editor.insertSpaces": true,
 		"editor.tabSize": 2,
-		"editor.autoIndent": false
+		"editor.autoIndent": "none"
     },
     "todo-tree.highlights.customHighlight": {
         "NOTE": {
@@ -119,4 +117,5 @@
             "iconColour": "yellow"
         }
     },
+    "workbench.iconTheme": "material-icon-theme", 
 }
