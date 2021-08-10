@@ -30,13 +30,13 @@ echo "Running php on docker php73nginx"
 $command
 ```
 
-### plugin list
+## plugin list
 
-## NEEDED
+### NEEDED
 
-## NOT BAD NOT NEEDED
+### NOT BAD NOT NEEDED
 
-## NOT NEEDED
+### NOT NEEDED
 
 * advanced-new-file: not bad
 * Angular v7 Snippets: NO
