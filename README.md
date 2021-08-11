@@ -72,9 +72,9 @@ https://marketplace.visualstudio.com/items?itemName=ryannaddy.laravel-artisan
 CODE SETTINGS SYNC UPLOAD SUMMARY
 Version: 3.4.3
 --------------------
-GitHub Token: **********
-GitHub Gist: **********
-GitHub Gist Type: **Secret**
+GitHub Token: 
+GitHub Gist: 
+GitHub Gist Type: 
 
 Restarting Visual Studio Code may be required to apply color and file icon theme.
 --------------------
