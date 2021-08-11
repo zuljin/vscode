@@ -56,9 +56,9 @@ echo "Running php on docker php73nginx"
 $command
 ```
 ### phpcs
-https://www.mclibre.org/consultar/php/otros/vsc-php-configuracion.html
-https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs
-https://blog.theodo.com/2019/07/vscode-php-development/
+- https://www.mclibre.org/consultar/php/otros/vsc-php-configuracion.htm
+- https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs
+- https://blog.theodo.com/2019/07/vscode-php-development/
 
 ### php debugger
 https://blog.theodo.com/2019/07/vscode-php-development/
