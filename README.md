@@ -30,7 +30,7 @@ ctrl + shift + p
 ### links
 https://blog.theodo.com/2019/07/vscode-php-development/
 
-#### Solution on Linux for multiple laravel sail projects without install PHP in OS (docker)
+### Solution on Linux for multiple laravel sail projects without install PHP in OS (docker)
 
 Create a file named 'php' on /usr/local/bin: 
 ```
@@ -55,8 +55,19 @@ command="docker exec php73nginx  php "$@""
 echo "Running php on docker php73nginx"
 $command
 ```
+### phpcs
+https://www.mclibre.org/consultar/php/otros/vsc-php-configuracion.html
+https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs
+https://blog.theodo.com/2019/07/vscode-php-development/
 
-## plugin list
+### php debugger
+https://blog.theodo.com/2019/07/vscode-php-development/
+https://www.youtube.com/watch?v=LNIvugvmCyQ
+
+### laravel artisan 
+https://marketplace.visualstudio.com/items?itemName=ryannaddy.laravel-artisan
+
+### plugin list
 
 ### NEEDED
 
