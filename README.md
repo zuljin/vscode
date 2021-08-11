@@ -7,6 +7,26 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf
 sudo sysctl -p
 ````
 
+### Font fira code ubuntu
+
+````
+sudo apt install fonts-firacode
+````
+
+1 — Open the command pallet with:
+````
+ctrl + shift + p
+````
+2 — Search for “Preferences: Open Settings (JSON)” and open it.
+3 — Add the following lines in the file.
+````
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true
+ ````
+4 — Restart VSCode
+
+
+
 ### links
 https://blog.theodo.com/2019/07/vscode-php-development/
 
