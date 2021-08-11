@@ -13,18 +13,18 @@ sudo sysctl -p
 sudo apt install fonts-firacode
 ````
 
-1 — Open the command pallet with:
+1. Open the command pallet with:
 ````
 ctrl + shift + p
 ````
-2 — Search for “Preferences: Open Settings (JSON)” and open it.
-3 — Add the following lines in the file.
+2. Search for “Preferences: Open Settings (JSON)” and open it.
+
+3. Add the following lines in the file.
 ````
   "editor.fontFamily": "'Fira Code'",
   "editor.fontLigatures": true
  ````
-4 — Restart VSCode
-
+4. Restart VSCode
 
 
 ### links
