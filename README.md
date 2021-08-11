@@ -71,77 +71,81 @@ https://marketplace.visualstudio.com/items?itemName=ryannaddy.laravel-artisan
 
 ### NEEDED
 
+* Auto Close Tag
+* Auto Complete Tag
+* Bracket Pair Colorizer
+* Better PHPUnit (alt + T run | alt + G run previous) (https://marketplace.visualstudio.com/items?itemName=calebporzio.better-phpunit)
+* Dotenv
+* Docker
+* Code Runner: ejecutrar trozo de código
+* Favorites
+* GitLens — Git supercharged
+* Laravel Artisan
+* Laravel Snippets
+* Markdown Preview Enhanced
+* Material Icon Theme
+* PHP Debug
+* PHP DocBlocker
+* PHP Formatter
+* PHP Namespace Resolver
+* phpcs (Code Sniffer)
+* Sublime Text Keymap and Settings Importer: OK (https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
+* Settings Sync (sync with github)
+* TODO Highlight
+* TODO Tree
+* YAML
+
 ### NOT BAD NOT NEEDED
+
+* advanced-new-file
+* Bookmarks
+* change-case: cambia el estil de las variables (camelCase, etc..)
+* Color Highlight
+* Git Blame
+* Laravel Blade Spacer: 
+* Markdown PDF: convert .md to .pdf
+* Multiline Tricks
+* Prettier - Code formatter (JavaScript|TypeScript|Flow|JSX|JSON|CSS|SCSS|Less|HTML|Vue|Angular|GraphQL|Markdown|YAML)
+* Spanish Language Pack for Visual Studio Code
+* 
 
 ### NOT NEEDED
 
-* advanced-new-file: not bad
 * Angular v7 Snippets: NO
-* Auto Close Tag: OK
-* Auto Complete Tag: OK
 * Auto Import - ES6, TS, JSX, TSX: not needed
 * Beautify: not needed
 * Babel ES6/ES7: not needed
 * Babel JavaScript: no needed
-* Bracket Pair Colorizer: OK
-* Better PHPUnit: OK (alt + T run | alt + G run previous) (https://marketplace.visualstudio.com/items?itemName=calebporzio.better-phpunit)
-* Bookmarks
 * Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets
-* Catalan - Code Spell Checker
-* change-case
-* Code Runner
 * Code Spell Checker
-* Color Highlight
-* Darcula Theme
 * Docker Explorer
-* Dotenv
 * ESLint
-* Favorites: OK
 * Firebase
-* Flow Language Support
-* Git Blame
-* GitLens — Git supercharged
+* Flow Language Support (javascript)
 * HTML CSS Support
 * HTML Snippets
 * IntelliSense for CSS class names in HTML
 * JavaScript (ES6) code snippets
-* Laravel Blade Spacer: 
 * Live Server
-* Markdown PDF: convert .md to .pdf
-* Markdown Preview Enhanced: OK
-* Material Icon Theme: OK
-* Material Theme
-* Multiline Tricks
-* New Moon Dracula VSCode
 * Node.js Modules Intellisense
 * npm
 * npm Intellisense
-* Paste JSON to Code
 * Path Intellisense
-* PHP Debug
-* PHP DocBlocker
-* PHP Formatter
-* PHP IntelliSense
-* PHP IntelliSense Crane
-* PHP Namespace Resolver
-* -PHPUnit- (Better PHPUnit)
-* Prettier - Code formatter
-* Settings Sync
+* Paste JSON to Code
 * Simple React Snippets
-* Spanish - Code Spell Checker
-* Spanish Language Pack for Visual Studio Code
 * SVG Viewer
-* Sublime Material Theme
-* Sublime Text Keymap and Settings Importer: OK (https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
-* Terminal
-* TODO Highlight
-* TODO Tree
 * TypeScript Import
 * TypeScript Importer
 * Useful React Snippets
-* Vscode great icons
-* Vscode Google Translate
-* vscode-icons
 * vscode-pdf
 * vscode-spotify
+* Vscode Google Translate
 * WakaTime
+
+
+* Sublime Material Theme
+* Terminal
+* Useful React Snippets
+* Vscode great icons
+* vscode-icons
+
