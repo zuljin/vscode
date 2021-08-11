@@ -71,13 +71,13 @@ https://marketplace.visualstudio.com/items?itemName=ryannaddy.laravel-artisan
 
 CODE SETTINGS SYNC UPLOAD SUMMARY
 Version: 3.4.3
---------------------
+
 GitHub Token: 
 GitHub Gist: 
 GitHub Gist Type: 
 
 Restarting Visual Studio Code may be required to apply color and file icon theme.
---------------------
+
 Files Uploaded:
   extensions.json > extensions.json
   keybindings.json > keybindings.json
@@ -122,8 +122,6 @@ Extensions Added:
   vscode-todo-highlight v1.0.4
   vscode-yaml v0.22.0
   winteriscoming v1.4.4
---------------------
-Done.
 
 ### plugin list
 
