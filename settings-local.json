@@ -2,7 +2,6 @@
     "favorites.sortDirection": "DESC",
     "files.exclude": {
     },
-    "better-phpunit.commandSuffix": "-c /datos/web/crm-clients/phpunit.xml --testdox --coverage-text",
     "better-phpunit.docker.enable": true,
     "better-phpunit.docker.command": "docker exec -ti php73nginx",
     "better-phpunit.docker.paths": {
@@ -12,6 +11,9 @@
         "/datos/web/crm-communications": "/datos/web/crm-communications",
         "/datos/web/crm-logs": "/datos/web/crm-logs",
     },
+    "better-phpunit.commandSuffix": "-c /datos/web/crm-externals/phpunit.xml --testdox --coverage-text",
+    "better-phpunit.suiteSuffix": "-c /datos/web/crm-externals/phpunit.xml --testdox --coverage-text",
+
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "[javascript]": {
