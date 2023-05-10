@@ -1,0 +1,10 @@
+   {
+   {
+        "key": "ctrl+alt+1",
+        "command": "command-runner.run",
+        "args": {
+            "command": "docker exec -ti php74apache ./var/tarificar/vendor/phpstan/phpstan/phpstan analyse --memory-limit 256M -c /var/tarificar/phpstan.neon",
+            "terminal": "runCommand"
+        }
+    }
+    }
