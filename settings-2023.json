@@ -1,0 +1,334 @@
+{
+    "terminal.integrated.fontSize": 18,
+    "explorer.confirmDelete": false,
+    "editor.rulers": [80,120],
+    "favorites.sortDirection": "DESC",
+    "files.exclude": {
+        "appuser-frontend": true,
+        "common-libs-BKP": true,
+        "crm-frontend": true,
+        "finance-spa-documentation": false,
+        "finance-spa-pa": true,
+        "gitlab": true,
+        "mock-server": true,
+        "new": true,
+        "old": true,
+        "openlead": true,
+        "finance-*": true,
+        "common-*": true,
+        "crm-*": true,
+        "INSURANCE*****": false,
+        "config*": true,
+        "mysql*": true,
+        "root": true,
+        "php": true,
+        "ssl": true,
+        "web/projects/a*": true,
+        "web/projects/box": false,
+        "web/projects/brotes": true,
+        "web/projects/comparador": true,
+        "web/projects/contratar": false,
+        "web/projects/contactar": false,
+        "web/projects/crm": false,
+        "web/projects/d*": true,
+        "web/projects/e*": true,
+        "web/projects/fiatc": true,
+        "web/projects/formular": false,
+        "web/projects/i*": true,
+        "web/projects/n*": true,
+        "web/projects/p*": true,
+        "web/projects/s*": true,
+        "web/projects/w*": false,
+        "web/projects/tarificar": false,
+    },
+    //"better-phpunit.docker.enable": true,
+    //"better-phpunit.suiteSuffix": "",
+    //"better-phpunit.docker.command": "docker exec -ti php73",
+    //"better-phpunit.docker.paths": {
+      //  "/datos/web/bkmdocapi": "/datos/web/bkmdocapi"
+    //},
+    //"better-phpunit.commandSuffix": "-c /datos/web/bkmdocapi/phpunit.xml",
+    "better-phpunit.docker.enable": true,
+    "better-phpunit.docker.command": "docker exec -ti php74apache",
+    "better-phpunit.docker.paths": {
+        "/datos/web/crm-business": "/datos/web/crm-business",
+        "/datos/web/crm-clients": "/datos/web/crm-clients",
+        "/datos/web/crm-externals": "/datos/web/crm-externals",
+        "/datos/web/crm-communications": "/datos/web/crm-communications",
+        "/datos/web/crm-logs": "/datos/web/crm-logs",
+        "/datos/insurance/web/projects/tarificar" : "/var/tarificar"
+    },
+    "better-phpunit.phpunitBinary": "./var/tarificar/vendor/bin/phpunit",
+    "better-phpunit.commandSuffix": "-c /var/tarificar/phpunit.xml --testdox --coverage-text",
+    "better-phpunit.suiteSuffix": "-c /var/tarificar/phpunit.xml --testdox --coverage-text",
+    //"better-phpunit.suiteSuffix": "-c /datos/web/crm-externals/phpunit.xml --testdox --coverage-text",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active",
+    "files.associations": {
+        "*.module": "php",
+        "*.php": "php",
+        "*.blade.php": "blade",
+        "*.tpl": "html"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "[typescript]": {
+        "editor.tabSize": 2
+    }, // if you would like to enable blade format
+    "[blade]": {
+        //"editor.defaultFormatter": "shufo.vscode-blade-formatter",
+        "editor.formatOnSave": true,
+        "editor.autoClosingBrackets": "always"
+    },
+    "emmet.triggerExpansionOnTab": true, // enable tab to expanse emmet tags
+    "emmet.includeLanguages": {
+        "[blade]":"html"
+    },
+    "beautify.language": {
+        "html": [
+            "blade",
+            "html"
+        ]
+    },
+    // PHP - Validate: Executable path (ubicación del intérprete de PHP)
+    "php.validate.executablePath": "/usr/local/bin/php",
+    // PHP: Validate: Run (la validación se ejecuta al guardar o al escribir)
+    "php.validate.run": "onType",
+    // Basic PHP code suggestions we want to disable because these 
+    // suggestions are polluted by the default PHP suggestions.
+    "php.suggest.basic": false,
+    // PHP: Executable Path (Ubicación del intérprete de PHP)
+    "php.executablePath": "/usr/local/bin/php",
+    // To enable suggestions for Symfony test classes, 
+    // all you need to do is edit your settings.json file and add:
+    "intelephense.files.exclude": [
+        "**/.git/**",
+        "**/.svn/**",
+        "**/.hg/**",
+        "**/CVS/**",
+        "**/.DS_Store/**",
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/vendor/**/{Test,test,Tests,tests}/**/*Test.php",
+        "**/resources/**"
+    ],
+    "intelephense.stubs": [
+        "apache",
+        "bcmath",
+        "bz2",
+        "calendar",
+        "com_dotnet",
+        "Core",
+        "ctype",
+        "curl",
+        "date",
+        "dba",
+        "dom",
+        "enchant",
+        "exif",
+        "FFI",
+        "fileinfo",
+        "filter",
+        "fpm",
+        "ftp",
+        "gd",
+        "gettext",
+        "gmp",
+        "hash",
+        "iconv",
+        "imap",
+        "intl",
+        "json",
+        "ldap",
+        "libxml",
+        "mbstring",
+        "meta",
+        "mysqli",
+        "oci8",
+        "odbc",
+        "openssl",
+        "pcntl",
+        "pcre",
+        "PDO",
+        "pdo_ibm",
+        "pdo_mysql",
+        "pdo_pgsql",
+        "pdo_sqlite",
+        "pgsql",
+        "Phar",
+        "posix",
+        "pspell",
+        "readline",
+        "Reflection",
+        "session",
+        "shmop",
+        "SimpleXML",
+        "snmp",
+        "soap",
+        "sockets",
+        "sodium",
+        "SPL",
+        "sqlite3",
+        "standard",
+        "superglobals",
+        "sysvmsg",
+        "sysvsem",
+        "sysvshm",
+        "tidy",
+        "tokenizer",
+        "xml",
+        "xmlreader",
+        "xmlrpc",
+        "xmlwriter",
+        "xsl",
+        "Zend OPcache",
+        "zip",
+        "zlib",
+        "mongodb"
+    ],
+    "editor.quickSuggestions": { "comments": true },
+    //"editor.fontFamily": "'Fira Code', 'Courier New', monospace",
+    //"editor.fontLigatures": true,
+    "artisan.docker.enabled": true,
+    "artisan.docker.command": "docker-compose exec -T php74apache",
+    "todohighlight.keywords": [
+        "DEBUG:",
+        "REVIEW:",
+        {
+            "text": "NOTE:",
+            "color": "#fff",
+            "backgroundColor": "pink",
+            "overviewRulerColor": "pink"
+        },
+        {
+            "text": "HACK:",
+            "color": "#000",
+            "isWholeLine": false,
+        },
+    ],
+    "todo-tree.filtering.excludeGlobs": [
+        "**/credimarket/**",
+        "**/vendor/**",
+        "**/node/node_modules/**",
+        "**/node_modules/**",
+        "**/dist/**",
+        "**/resources/**",
+        "**/public/**",
+        "**/core/**",
+        "**/common-libs/**",
+        "**/openlead/**",
+        "**/appuser-frontend/**",
+        "**/bkmdoc-frontend/**",
+        "**/crm-frontend/**",
+        //"**/bkmdocapi/**",
+        "**/laradock/**",
+    ],
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#ff0000",
+        "terminalCursor.foreground": "#ff0000"
+    },
+    "todo-tree.customHighlight": {
+        "NOTE": {
+            "icon": "check",
+            "type": "line"
+        },
+        "FIXME": {
+            "foreground": "black",
+            "iconColour": "yellow"
+        }
+    },
+    "yaml.schemas": {
+        "file:///home/juan/.vscode/extensions/docsmsft.docs-yaml-0.2.3/schemas/toc.schema.json": "/toc\\.yml/i"
+    },
+    "editor.cursorBlinking": "expand",
+    "editor.cursorWidth": 4,
+    //"artisan.docker.enabled": true,
+    //"artisan.docker.command": "docker exec -to workdir php56",
+    "[yaml]":  {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2,
+		"editor.autoIndent": "none"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "NOTE": {
+            "icon": "check",
+            "type": "line"
+        },
+        "FIXME": {
+            "foreground": "black",
+            "iconColour": "yellow"
+        }
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.fontFamily": "monospace",
+    "redhat.telemetry.enabled": false,
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "php": "/usr/local/bin/php",
+        "python": "python",
+        "html": "/usr/bin/google-chrome-stable /usr/share/man/man1/google-chrome-stable.1.gz",
+    },
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "sync.gist": "347e21fde7d4e0191adad6a2144c29a0",
+    //"workbench.colorTheme": "Winter is Coming (Dark Black)",
+    // PHP Code Sniffer
+    // PHP 
+    "[php]": {
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+        "editor.formatOnSave": true
+    },
+    "code-runner.languageIdToFileExtensionMap": {
+        "bat": ".bat",
+        "powershell": ".ps1",
+        "typescript": ".ts"
+    },
+    "command-runner.terminal.name": "runCommand",
+    "command-runner.terminal.autoClear": true,
+    "command-runner.terminal.autoFocus": true,
+    "command-runner.commands": {
+
+        "echo": "echo 'this is a test command: ${workspaceFolder}'"
+    },
+    "workspaceCacheClean.autoReload": true,
+    "markdown-preview-enhanced.previewTheme": "atom-light.css",
+    "blade.format.enable": true,
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "pull_request.yaml",
+                "build_docker_image.yaml",
+                "deploy_k8s_preprod",
+                "deploy_k8s_prod"
+            ],
+            "url": "http://json.schemastore.org/github-workflow"
+        }
+    ],
+    "intelephense.environment.phpVersion": "8.2.8",
+    "explorer.openEditors.sortOrder": "alphabetical",
+    "namespaceResolver.sortOnSave": true,
+    "namespaceResolver.sortAlphabetically": true,
+    "editor.fontSize": 19,
+    "editor.tabSize": 5,
+    "sonarlint.rules": {
+        "php:S1808": {
+            "level": "off"
+        }
+    },
+}
