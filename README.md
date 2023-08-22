@@ -97,6 +97,7 @@ Extensions Removed:
 Extensions Added:
 * auto-close-tag v0.5.12
 * auto-complete-tag v0.1.0
+* better-comments
 * better-phpunit v1.5.3
 * bracket-pair-colorizer v1.0.61
 * code-runner v0.11.5
@@ -105,16 +106,23 @@ Extensions Added:
 * dotenv v1.0.1
 * favorites v2.4.5
 * gitlens v11.6.0
+* indent-rainbow
 * laravel-artisan v0.0.28
-* laravel5-snippets v1.13.0
+* laravel blade formatter
 * markdown-preview-enhanced v0.5.22
 * material-icon-theme v4.9.0
+* meld-diff
 * php-debug v1.17.0
 * php-docblocker v2.1.0
 * php-formatter v0.2.4
+* php intelephense
 * php-namespace-resolver v1.1.8
 * phpcs v1.0.5
+* settings-sync
+* sonarLint
+* sort lines
 * sublime-keybindings v4.0.9
+* TODO Highlight
 * todo-tree v0.0.213
 * vscode-docker v1.15.0
 * vscode-intelephense-client v1.7.1
@@ -122,6 +130,7 @@ Extensions Added:
 * vscode-todo-highlight v1.0.4
 * vscode-yaml v0.22.0
 * winteriscoming v1.4.4
+* yaml
 
 ### plugin list
 
